@@ -7,8 +7,8 @@ apt-get install -y libmozjs185-dev libicu-dev libcurl4-gnutls-dev libtool
 apt-get install -y curl
 cd /usr/local/src
 # choose one of these, DL couch from the net or copy from local vagrant folder
-# curl -O http://apache.mirrors.tds.net/couchdb/source/1.3.1/apache-couchdb-1.3.1.tar.gz
-cp /vagrant/apache-couchdb-1.3.1.tar.gz /usr/local/src/apache-couchdb-1.3.1.tar.gz
+curl -O http://apache.mirrors.tds.net/couchdb/source/1.3.1/apache-couchdb-1.3.1.tar.gz
+#cp /vagrant/apache-couchdb-1.3.1.tar.gz /usr/local/src/apache-couchdb-1.3.1.tar.gz
 tar xvzf apache-couchdb-1.3.1.tar.gz
 cd apache-couchdb-1.3.1
 ./configure
